@@ -43,7 +43,7 @@ Your computer  ──── encrypted tunnel ────▶  Rivanna login node
 
 | Term | Meaning |
 |------|---------|
-| **Host** | The remote machine you're connecting to (`rivanna.hpc.virginia.edu`) |
+| **Host** | The remote machine you're connecting to (`login.hpc.virginia.edu`) |
 | **Port** | SSH uses port 22 by default |
 | **Shell** | The command interpreter on the remote side (Rivanna uses Bash) |
 | **Session** | Your connection from login to logout |
@@ -68,7 +68,7 @@ Both macOS and Linux come with SSH built into the terminal. No extra software ne
 2. Run the SSH command:
 
    ```bash
-   ssh your_computing_id@rivanna.hpc.virginia.edu
+   ssh your_computing_id@login.hpc.virginia.edu
    ```
 
    Replace `your_computing_id` with your UVA computing ID (the part before `@virginia.edu` in your email).
@@ -97,7 +97,7 @@ Windows 10 and 11 include a built-in SSH client in PowerShell and Command Prompt
 2. Run the same command as Mac/Linux:
 
    ```powershell
-   ssh your_computing_id@rivanna.hpc.virginia.edu
+   ssh your_computing_id@login.hpc.virginia.edu
    ```
 
 #### Option 2: MobaXterm (recommended for Windows — free)
@@ -107,14 +107,14 @@ MobaXterm gives you a full Linux-like terminal experience on Windows, including 
 1. Download MobaXterm Home Edition from https://mobaxterm.mobatek.net/
 2. Open MobaXterm and click **Session** → **SSH**.
 3. Enter:
-   - Remote host: `rivanna.hpc.virginia.edu`
+   - Remote host: `login.hpc.virginia.edu`
    - Username: your UVA computing ID
 4. Click OK and enter your password when prompted.
 
 #### Option 3: PuTTY (classic SSH client)
 
 1. Download PuTTY from https://www.putty.org/
-2. In the "Host Name" field enter: `rivanna.hpc.virginia.edu`
+2. In the "Host Name" field enter: `login.hpc.virginia.edu`
 3. Port: `22`, Connection type: `SSH`
 4. Click **Open**, then enter your username and password.
 
